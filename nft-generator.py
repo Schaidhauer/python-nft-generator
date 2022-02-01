@@ -18,7 +18,7 @@ import os
 
 ##GLOBAL CONFIG
 
-assetsFolder = 'assets-gabriel-pixel'
+assetsFolder = 'assets'
 TOTAL_IMAGES = 100  # Number of random unique images we want to generate
 
 # In[106]:
