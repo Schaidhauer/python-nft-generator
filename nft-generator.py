@@ -130,3 +130,8 @@ for item in all_images:
     rgb_im = com.convert('RGBA')
     file_name = str(item["tokenId"]) + ".png"
     rgb_im.save('./images_' + assetsFolder + '/' + file_name)
+
+    # list images from the directory
+    #folderImg = os.listdir('./images_' + assetsFolder)
+    #for f in folderImg:
+    #    print(f)
